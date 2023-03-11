@@ -52,7 +52,7 @@ html, body{
 
 header {
     height: 60px;
-    background-color: green;
+    background-color: blue;
 }
 
 .main {
@@ -61,7 +61,7 @@ header {
 
 footer {
     height: 60px;
-    background-color: blue;
+    background-color: yellow;
 }
 
 
@@ -79,12 +79,12 @@ footer {
 	max-width: 1220px;
 	padding: 0 10px;
 	margin: 0 auto;
-	border: 4px solid black;
+	/* border: 4px solid black; */
 
 }
 
 .main_inner{
-	margin: 0 auto;
+	margin: 25px auto;
 	border: 3px solid green;
 	background-color: #3f1f1ff1;
     border-radius: 10px;
@@ -93,6 +93,7 @@ footer {
 	padding: 25px;
 
 }
+
 
 .button{
 	width: 290px;
@@ -132,8 +133,7 @@ footer {
 }
 
 #btn001:active, #btn002:active, #btn003:active, #btn004:active,
-#btn005:active, #btn006:active, #btn007:active, #btn008:active,
-#btn009:active {
+#btn005:active, #btn006:active, #btn007:active, #btn008:active {
 	background-image: url("../ico/rose.png");
     background-color: #0a386d;
     box-shadow: 0 -2px #2484f2;
@@ -162,27 +162,27 @@ footer {
 }
 
 #btn005 {
-    background-image: url("https://yt3.ggpht.com/tNuyTK2uEqFyqgzlf6idH2ExJQtEbPLfMru9UY6kKMAAFzwj0SvlWj3r9dACRcljad7tqe1w=s48-c-k-c0x00ffffff-no-rj");
-
-}
-
-#btn006 {
     background-image: url("https://yt3.ggpht.com/ytc/AKedOLS3duRG2wUy6UyDC9cdl0o_btn4Me35oK-oVbQzFQ=s48-c-k-c0x00ffffff-no-rj");
 
 }
 
-#btn007 {
+#btn006 {
     background-image: url("https://yt3.ggpht.com/I2LeW2KOPexSQ22-aJ59T6ErWsiSI-tVuvLN7KmYvB8T3q37C47GQvxHXg6dBHKhgb_VTkBjGA=s48-c-k-c0x00ffffff-no-rj");
 
 }
 
+#btn007 {
+    background-image: url("https://yt3.ggpht.com/tNuyTK2uEqFyqgzlf6idH2ExJQtEbPLfMru9UY6kKMAAFzwj0SvlWj3r9dACRcljad7tqe1w=s48-c-k-c0x00ffffff-no-rj");
+
+}
+
 #btn008 {
-    background-image: url("https://yt3.ggpht.com/tz6KEmokf6XO0tcXK2LrkxbRx14LOb5LDRnFLErSRdgWJhuUloA2SC08LoxPL5NTjeBQb2ANWw=s48-c-k-c0x00ffffff-no-rj");
+    background-image: url("https://yt3.ggpht.com/wEuVi81hi3BQNkZVAAycZuvOKrZ2fWO7owzbiahnir5TFlpaA_V3usMuDKTzoZXdW1q8JKlK=s48-c-k-c0x00ffffff-no-rj");
 
 }
 
 
-#btn009 {
-    background-image: url("https://yt3.ggpht.com/wEuVi81hi3BQNkZVAAycZuvOKrZ2fWO7owzbiahnir5TFlpaA_V3usMuDKTzoZXdW1q8JKlK=s48-c-k-c0x00ffffff-no-rj");
-
+.footer-menu__list{
+	display: flex;
+	justify-content: space-between;
 }
