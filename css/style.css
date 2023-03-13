@@ -196,6 +196,10 @@ header {
 	background: rgba(255, 255, 255, 0.15);
 	border: 1px solid #FFFFFF;
 }
+
+.menu__list-one{
+	margin-bottom: 10px;
+}
 .tv__item + .tv__item{
 	display: inline-block;
 	margin-top: 10px;
@@ -219,9 +223,9 @@ header {
     background-repeat: no-repeat;
 }
 
-.tv__link +.tv__link{
+/* .tv__link +.tv__link{
 	margin-top: 10px;
-}
+} */
 
 .tv__link:hover {
     background-color: #2485f5;
@@ -296,4 +300,41 @@ footer {
 	color: #FFFFFF;
 	font-size: 16px;
 	text-shadow: 0px 4px 4px black;
+}
+
+@media (max-height: 640px) {
+	.main__inner{
+		margin: 10px auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	
+	}
+
+	.menu__list-one, .menu__list-two{
+		margin-bottom: 0px;
+		display: block;
+		width: 77px;
+		margin: 0 auto;
+		
+	}
+
+	.tv__item{
+		display: inline-block;
+		padding: 10px;
+		background-color: #292626;
+		font-size: 0px;
+		border-radius: 10px;
+		border-bottom: 2px solid #2484f2;
+		cursor: pointer;
+		align-items: center;
+	}
+	.tv__link{
+		border: 2px solid #2484f2;
+		border-radius: 50%;
+		min-width: 55px;
+		height: 55px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
 }
